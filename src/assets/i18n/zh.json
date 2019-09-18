@@ -1,0 +1,14 @@
+{
+  "item-soccer" : "축구",
+  "item-basketball" : "농구",
+  "item-tennis" : "테니스",
+  "item-golf" : "골프",
+  "item-surf" : "서핑",
+  "item-badminton" : "배드민턴",
+  "item-wakeboard" : "웨이크보드",
+  "item-ski" : "스키",
+
+  "user-login" : "로그인",
+  "user-logout" : "로그아웃",
+  "user-register" : "가입하기"
+}

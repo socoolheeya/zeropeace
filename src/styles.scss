@@ -1,1 +1,165 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: "Noto Sans Korean";
+  color: #000;
+  word-break: keep-all;
+}
+input {
+  padding: .3rem .6rem;
+  border: 1px solid #ddd;
+  border-radius: .3rem;
+  width: 3rem;
+}
+a {
+  text-decoration-color: #000;
+  text-decoration-line: none;
+  text-indent: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  white-space: nowrap;
+}
+a:active, a:hover {
+  color: #000;
+}
+a:visited {
+  color: #000;
+}
+
+.btn {
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 32px;
+  width: 100px;
+  height: 34px;
+  padding: 0 10px;
+  margin-left: 6px;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-raise {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.btn-line {
+  background-color: #fff;
+}
+.btn-line-red {
+  color: #FF3333;
+  border-color: #FF3333;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  color: #FF3333;
+}
+.btn-line-orange {
+  color: #FF6600;
+  border-color: #FF6600;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-yellow {
+  color: #FFCC00;
+  border-color: #FFCC00;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-green {
+  color: #339933;
+  border-color: #339933;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-olive {
+  color: #669900;
+  border-color: #669900;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-light-blue {
+  color: #0099FF;
+  border-color: #0099FF;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-blue {
+  color: #0066CC;
+  border-color: #0066CC;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-navy {
+  color: #003399;
+  border-color: #003399;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-purple {
+  color: #663399;
+  border-color: #663399;
+  background-color: #fff;
+}
+.btn-line-black {
+  color: #000;
+  border-color: #000;
+  background-color: #fff;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+.btn-line-white {
+  color: #fff;
+  border-color: #fff;
+  background-color: #000;
+}
+.btn-line-red:hover {
+  background-color: rgba(255, 51, 51, 0.1);
+  transition: 0.3s;
+}
+
+
+//angular component
+app-root {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+app-header {
+  color: #fff;
+}

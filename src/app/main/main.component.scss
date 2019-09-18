@@ -1,0 +1,70 @@
+.main-container {
+
+}
+.item-group {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 5px;
+  .item {
+    flex: 1;
+    justify-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    padding: 10px 10px;
+    width: 100%;
+    margin-right: 19px;
+    text-align: center;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    transition: transform .2s;
+    div {
+      height: 100px;
+      margin: 0 auto;
+    }
+    div.item-surf {
+      background: url(../../assets/images/surfing.png) no-repeat center;
+      background-size: contain;
+    }
+    div.item-soccer {
+      background: url(../../assets/images/soccer.png) no-repeat center;
+      background-size: contain;
+    }
+    div.item-basketball {
+      background: url(../../assets/images/basketball.png) no-repeat center;
+      background-size: contain;
+    }
+    div.item-tennis {
+      background: url(../../assets/images/tennis.png) no-repeat center;
+      background-size: contain;
+    }
+    div.item-golf {
+      background: url(../../assets/images/golf.png) no-repeat center;
+      background-size: contain;
+    }
+    div.item-badminton {
+      background: url(../../assets/images/badminton.png) no-repeat center;
+      background-size: contain;
+    }
+    div.item-wakeboard {
+      background: url(../../assets/images/wakeboard.png) no-repeat center;
+      background-size: contain;
+    }
+    div.item-ski {
+      background: url(../../assets/images/ski.png) no-repeat center;
+      background-size: contain;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+  .item:hover {
+    transform: scale(1.2);
+    z-index: 10;
+    background: #fff;
+  }
+  .item-last {
+    margin-right: 0;
+  }
+}

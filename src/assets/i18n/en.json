@@ -1,0 +1,14 @@
+{
+  "item-soccer" : "Soccer",
+  "item-basketball" : "Basketball",
+  "item-tennis" : "Tennis",
+  "item-golf" : "Golf",
+  "item-surf" : "Surf",
+  "item-badminton" : "Badminton",
+  "item-wakeboard" : "Wakeboard",
+  "item-ski" : "Ski",
+
+  "user-login" : "Login",
+  "user-logout" : "Logout",
+  "user-register" : "Register"
+}
