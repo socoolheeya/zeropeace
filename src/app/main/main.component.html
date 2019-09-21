@@ -1,31 +1,24 @@
-<p>main works!</p>
-<div>
-  <a [routerLink]="['main']">main</a>
-</div>
-<div>
-  <a [routerLink]="['hobby']">hobby</a>
-</div>
 <section class="main-container">
   <article class="item-group">
-    <div class="item item-shadow">
+    <div class="item item-shadow" [routerLink]="['hobby/surf']">
       <div class="item-surf"></div>
       <p>{{"item-surf" | translate}}</p>
     </div>
-    <div class="item item-shadow">
+    <div class="item item-shadow" [routerLink]="['hobby/soccer']">
       <div class="item-soccer"></div>
       <p>{{"item-soccer" | translate}}</p>
     </div>
-    <div class="item item-shadow">
+    <div class="item item-shadow" [routerLink]="['hobby/basketball']">
       <div class="item-basketball"></div>
       <p>{{"item-basketball" | translate}}</p>
     </div>
-    <div class="item item-last item-shadow">
+    <div class="item item-last item-shadow" [routerLink]="['hobby/tennis']">
       <div class="item-tennis"></div>
       <p>{{"item-tennis" | translate}}</p>
     </div>
   </article>
   <article class="item-group">
-    <div class="item item-shadow">
+    <div class="item item-shadow" [routerLink]="['hobby/golf']">
       <div class="item-golf"></div>
       <p>{{"item-golf" | translate}}</p>
     </div>
@@ -43,4 +36,9 @@
     </div>
   </article>
 </section>
+<div>
+  <input type="text" [(ngModel)]="name" style="width: 600px; display: block;">
+  <input type="text" [value]="name" (input)="name=$event.target.value" style="width: 600px">
+  <p>{{name}}</p>
+</div>
 

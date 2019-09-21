@@ -10,6 +10,5 @@ export class AppComponent {
   title = 'zeropeace';
   constructor(translate: TranslateService) {
     translate.setDefaultLang('ko');
-    translate.use('en');
   }
 }
