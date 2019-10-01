@@ -25,6 +25,7 @@ import {counterReducer} from "./counter/counter";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MAT_CHECKBOX_CLICK_ACTION, MatCheckboxModule} from "@angular/material/checkbox";
 import {MatButtonModule} from "@angular/material/button";
+import {MainDirective} from "./main/main.directive";
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import {MatButtonModule} from "@angular/material/button";
     SurfComponent,
     BadmintonComponent,
     SkiComponent,
-    CounterComponent
+    CounterComponent,
+    MainDirective
   ],
   imports: [
     BrowserModule,

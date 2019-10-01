@@ -16,13 +16,12 @@ const routes: Routes = [
     component: MainComponent
   },
   {
-    path: 'hobby/:id',
-    component: HobbyComponent,
-    children: [
-      {path: '', redirectTo: 'hobby', pathMatch: 'full'},
-      {path: 'surf', component: SurfComponent},
-      {path: 'soccer', component: SoccerComponent}
-    ]
+    path: 'hobby/surf',
+    component: SurfComponent
+  },
+  {
+    path: 'hobby/soccer',
+    component: SoccerComponent
   }
 ];
 
