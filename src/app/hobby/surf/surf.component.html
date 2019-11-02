@@ -3,6 +3,8 @@
 <h2>{{str | currency: 'KRW'}}</h2>
 <h2>{{str | number: '1.2'}}</h2>
 <h2>{{str | percent}}</h2>
-<h2>{{str1 | uppercase}}</h2>
-<h2>{{str1 | lowercase}}</h2>
 <div>{{sayHi()}}</div>
+<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
+  <p>the box is now {{isOpen ? 'Open' : 'Closed'}}!</p>
+</div>
+
