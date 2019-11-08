@@ -9,7 +9,7 @@ import {Observable} from "rxjs";
 })
 export class AppComponent {
   title = 'zeropeace';
-  private type: string;
+  type: string = 'gcp';
   constructor(translate: TranslateService) {
     translate.setDefaultLang('ko');
 
@@ -22,13 +22,12 @@ export class AppComponent {
         subscriber.next('other');
       }
       setTimeout(()=> {
-        subscriber.next(4);
+        //subscriber.next(4);
         subscriber.complete();
       }, 1000);
     });
 
-    console.log('just before subscribe');
-    this.type = 'aws';
+    this.type = 'gcp';
     number$.subscribe({
       next(x) {
         console.log('got value ' + x);
@@ -37,10 +36,10 @@ export class AppComponent {
         console.error('something wrong occurred: ' + err);
         },
       complete() {
-
         console.log('done');
       }
     });
+    number$.pipe()
     console.log('just after subscribe');
   }
 }
